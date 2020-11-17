@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculate factorial of a nuber</title>
+    <link rel="stylesheet" href="./styles/factorial.css">
+</head>
+
+<body>
+    <div class="fact-wrapper">
+        <div class="fact-wrapper-input">
+            <label class="fact-text">Factorial of </label>
+            <input id="fact-input" class="fact-input" type="number" min="0" placeholder="Enter value" />
+            <span class="fact-text"> = </span>
+            <span id="fact-calculated" class="fact-text fact-calculated-text">?</span>
+        </div>
+    </div>
+    <span id="input-error-msg" class="fact-input-error-msg"></span>
+
+    <div class="fact-btn-wrapper">
+        <button class="fact-btn" onclick="calculateFact()">Calculate Factorial</button>
+    </div>
+
+    <script src="./scripts/factorialOfNum.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+.fact-wrapper {
+    width: auto;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+}
+
+.fact-text {
+    color: crimson;
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.fact-input,
+.fact-btn {
+    color: crimson;
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.fact-input {
+    width: 200px;
+}
+
+.fact-btn-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.fact-btn {
+    width: auto;
+    color: purple;
+    height: 50px;
+    align-self: center;
+}
+
+.fact-input-error-msg {
+    color: red;
+    display: flex;
+    width: 270px;
+    margin: 0 auto 30px auto;
+    justify-content: flex-end;
+}
+
+.fact-calculated-text {
+    margin-left: 10px;
+}
